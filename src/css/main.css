@@ -49,29 +49,33 @@ img {
 .email {
     text-align: center;
     font-size: 12.24px;
+    margin: 0 0 17px 0;
+    color: #4A4E74;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10.24;
 }
 
 .fastContact {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    max-width: 247px;
 }
 
 button {
     border-radius: 6px;
     font-weight: 500px;
-    font-size: 14px;
-    margin: 17px;
+    font-size: 14px; 
     padding: 9px 13px 9px 11px;
+    width: 115px;
+    height: 34px;
 }
-
-
 
 .btn-mail {
     border: 1px solid #D1D5DB;
     background-color: #FFFFFF;
     box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
     color: #374151;
-    
 }
 
 .btn-linkedin {
@@ -79,5 +83,9 @@ button {
     background-color: #297FE5;
     color: #FFFFFF;
     box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+.btn-text {
+    margin: 9px, 13px, 9px, 11px;
 }
 
